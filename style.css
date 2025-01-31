@@ -1,0 +1,24 @@
+/* Стилізація списку */
+.custom-list {
+  list-style-type: none; /* Вимикаємо стандартні маркери */
+  padding-left: 0;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 30px; /* Місто для картки */
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Додавання картинки замість маркера через background-image */
+.custom-list li {
+  background-image: url('https://images.unsplash.com/photo-1504382102857-3f7ce1e4f3a7');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px; /* Встановлюємо розмір картинки */
+  height: 20px; /* Встановлюємо розмір картинки */
+  padding-left: 30px; /* Відступ для тексту */
+}
